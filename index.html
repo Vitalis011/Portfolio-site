@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c05b850936.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text" id="#">UGORJI CHIBUZOR VITALIS</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-closeBtn">x</button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutme-section" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Project</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contactme-section" class="nav-link">Contact me</a>
+          </li>
+        </ul>
+        <button id="menu-openBtn">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-overlay">
+            <div class="hero-details">
+              <h2 class="title">Chibuzor Vitalis</h2>
+              <h3 class="subtitle">
+                I'm a Full-Stack Developer, Biomedical Engineer & UI Designer
+              </h3>
+              <p class="description">
+                Innovating at the intersection of healthcare and technology,
+                crafting efficient and scalable web solutions.
+              </p>
+              <div class="buttons">
+                <a href="#contactme-section" class="button contact-me">
+                  Contact Me</a
+                >
+                <a href="#" class="button show-more"> Show More</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="image/steve-busch-vaknSP_Jrsg-unsplash.jpg"
+              alt="Hero"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="about-section" id="aboutme-section">
+      <div class="about-section-content">
+        <div class="about-image-wrapper">
+          <img src="image/IMG_8267.JPG" alt="" class="about-image" />
+        </div>
+        <div class="about-details">
+          <h2 class="section-title" id="about">About Me</h2>
+          <p class="text">
+            I'm Chibuzor Vitalis, a Full-Stack Developer at Business College
+            Helsinki. I specialize in building efficient, scalable web
+            applications, combining front-end and back-end skills to create
+            seamless user experiences. Passionate about problem solving and
+            innovation, I thrive in dynamic environments and continuously adapt
+            to new challenges.
+          </p>
+          <div class="social-link-list">
+            <a href="https://github.com/Vitalis011" class="social-link">
+              <i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ugorji30/" class="social-link">
+              <i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/bankumike?s=21" class="social-link">
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/blackboi_joy?igsh=MXZ2ankzb3piY3gzbw%3D%3D&utm_source=qr"
+              class="social-link"
+            >
+              <i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="projects" class="projects-section">
+        <h2 class="section-title" id="project-header">Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <img src="image/atm-simulator.png" alt="ATM Simulator" />
+            <div class="overlay">
+              <a href="https://github.com/Vitalis011" class="btn-visit"
+                >Go to Website</a
+              >
+            </div>
+            <h3 class="project-title">ATM Simulator</h3>
+          </div>
+
+          <div class="project-card">
+            <img src="image/little zoo.png" alt="Little Zoo" />
+            <div class="overlay">
+              <a href="https://github.com/Vitalis011" class="btn-visit"
+                >Go to Website</a
+              >
+            </div>
+            <h3 class="project-title">Little Zoo</h3>
+          </div>
+
+          <div class="project-card">
+            <img src="image/magicball.jpeg" alt="MagicBall 8" />
+            <div class="overlay">
+              <a href="https://github.com/Vitalis011" class="btn-visit"
+                >Go to Website</a
+              >
+            </div>
+            <h3 class="project-title">Magic Ball 8</h3>
+          </div>
+
+          <div class="project-card">
+            <img src="image/pancake-maker.png" alt="Pancake Maker" />
+            <div class="overlay">
+              <a href="https://github.com/Vitalis011" class="btn-visit"
+                >Go to Website</a
+              >
+            </div>
+            <h3 class="project-title">Pancake Maker</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <main>
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <h2 class="skill-section-title">Skills</h2>
+        <p class="skills-description">
+          Passionate about crafting immersive user experiences, I specialize in
+          front-end development, UI design, and data-driven web solutions. With
+          a solid foundation in JavaScript, HTML, CSS, React, PHP, and data
+          structures, I bring ideas to life with precision and creativity.
+        </p>
+
+        <div class="skills-container">
+          <div class="skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">HTML & CSS</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">UI Design</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">React (Basic)</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">PHP (Basic)</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 60%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Data Structures</span>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contactme-section">
+        <h2 class="contact-section-title">Contact Me</h2>
+        <div class="contact-section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Myrmaki Vantaa, 01600</p>
+            </li>
+            <li class="contact-info">
+              <i class="fas fa-envelope"></i>
+              <p>vitalisugorji1@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fas fa-phone-alt"></i>
+              <p>+358417075846</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Your message"
+              class="form-input"
+              required
+            ></textarea>
+            <button type="submit" class="send-btn">Send</button>
+          </form>
+
+          <p id="successMessage" class="success-message">Message Sent!</p>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="footer-section-content">
+          <p class="copyright-text">© 2025 Chibuzor Ugorji</p>
+
+          <div class="social-link-list">
+            <a href="https://github.com/Vitalis011" class="social-link">
+              <i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ugorji30/" class="social-link">
+              <i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/bankumike?s=21" class="social-link">
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/blackboi_joy?igsh=MXZ2ankzb3piY3gzbw%3D%3D&utm_source=qr"
+              class="social-link"
+            >
+              <i class="fab fa-instagram"></i
+            ></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">.</span>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <div class="overlay-container" id="showMoreOverlay">
+      <div class="overlay-content">
+        <p>
+          This is a sample of my first Portfolio and i really do hope my
+          stylings and interactions are goos enough. With time i will keep
+          modifying the code to a perfect fit. Thank you for you time.
+        </p>
+        <button class="close-overlay-btn">Close</button>
+      </div>
+    </div>
+    <button id="backToTopBtn" aria-label="Back to top">↑</button>
+    <script src="script0.js"></script>
+  </body>
+</html>
