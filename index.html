@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="dark" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/c05b850936.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="theme-modification.css" />
   </head>
   <body>
     <header>
@@ -38,6 +39,10 @@
             <a href="#contactme-section" class="nav-link">Contact me</a>
           </li>
         </ul>
+        <label class="theme-toggle">
+          <input type="checkbox" />
+          <span class="theme-slider"></span>
+        </label>
         <button id="menu-openBtn">☰</button>
       </nav>
     </header>
@@ -157,9 +162,8 @@
       </section>
     </main>
     <main>
-      <!-- Skills Section -->
       <section id="skills" class="skills-section">
-        <h2 class="skill-section-title">Skills</h2>
+        <h2 class="skill-section-title">SKILLS</h2>
         <p class="skills-description">
           Passionate about crafting immersive user experiences, I specialize in
           front-end development, UI design, and data-driven web solutions. With

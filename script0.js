@@ -90,3 +90,16 @@ backToTopBtn.addEventListener("click", () => {
 
 window.addEventListener("scroll", toggleBackToTopBtn);
 window.addEventListener("load", toggleBackToTopBtn);
+
+const toggle = document.querySelector(".theme-toggle input");
+toggle.addEventListener("change", () => {
+  document.documentElement.setAttribute(
+    "data-theme",
+    toggle.checked ? "light" : "dark"
+  );
+});
+
+if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+  toggle.checked = true;
+  document.documentElement.setAttribute("data-theme", "light");
+}
